@@ -1,4 +1,4 @@
-import { ScrollView, Text, View } from 'react-native';
+import { ScrollView, Text, View } from "react-native";
 
 export default function TestScreen() {
   return (
@@ -17,7 +17,8 @@ export default function TestScreen() {
             카드 1
           </Text>
           <Text className="text-gray-700 dark:text-gray-300">
-            flex, padding, rounded, shadow 등 Tailwind 유틸리티를 그대로 사용할 수 있습니다.
+            flex, padding, rounded, shadow 등 Tailwind 유틸리티를 그대로 사용할
+            수 있습니다.
           </Text>
         </View>
 
@@ -32,11 +33,13 @@ export default function TestScreen() {
 
         {/* 버튼 느낌의 박스 */}
         <View className="flex-row gap-3 mt-2">
-          <View className="flex-1 bg-blue-500 rounded-xl py-3 items-center">
+          <View className="flex-1 bg-purple-500 rounded-xl py-3 items-center">
             <Text className="text-white font-semibold">Primary</Text>
           </View>
           <View className="flex-1 bg-gray-300 dark:bg-gray-600 rounded-xl py-3 items-center">
-            <Text className="text-gray-800 dark:text-gray-200 font-semibold">Secondary</Text>
+            <Text className="text-gray-800 dark:text-gray-200 font-semibold">
+              Secondary
+            </Text>
           </View>
         </View>
       </View>
